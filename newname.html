@@ -1,0 +1,14 @@
+<button id="one" onclick="update(event)">john</button>
+<button id="two" onclick="update(event)">praveen</button>
+<button id="three" onclick="update(event)">karthi</button>
+<h1 id="result"></h1>
+<script>
+    var a=document.getElementById("one")
+    var b=document.getElementById("two")
+    var c=document.getElementById("three")
+var result=document.getElementById("result")
+function update(event){
+    result.textContent=event.target.textContent
+}
+</script>
+
